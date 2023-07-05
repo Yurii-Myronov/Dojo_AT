@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e324b4e9-3ec2-41f4-ac56-4f858d490db9" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/TestUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/screens/RegistrationScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/screens/VerificationScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/screens/WelcomeBackScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4J2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/screens/HomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/RegistrationScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/RegistrationScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screens/WelcomeBackScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/WelcomeBackScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="registration_test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +63,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTest">
+  <component name="RunManager" selected="TestNG.SignInTest.signIn">
     <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Dojo_AT" />
       <extension name="coverage">
@@ -138,8 +133,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignInTest.signIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Dojo_AT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SignInTest" />
+      <option name="METHOD_NAME" value="signIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignInTest.signIn" />
         <item itemvalue="TestNG.RegistrationTest" />
         <item itemvalue="TestNG.BaseTest.build" />
         <item itemvalue="TestNG.RegistrationTests" />
@@ -163,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688235586440</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main">
+      <created>1688543273930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688543273930</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

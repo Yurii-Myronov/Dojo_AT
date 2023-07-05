@@ -15,7 +15,7 @@ public class RegistrationScreen extends BasePageObject {
     private By emailFieldLocator = MobileBy.AccessibilityId("email__field_lible");
     private By passwordFieldLocator = MobileBy.AccessibilityId("password_field_lible");
     private By registerNowButtonLocator = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup");
-
+    private By signInButtonLocator = MobileBy.AccessibilityId("signIn_button_lible");
     public RegistrationScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
@@ -28,6 +28,11 @@ public class RegistrationScreen extends BasePageObject {
         type(password, passwordFieldLocator);
         click(registerNowButtonLocator);
         return new VerificationScreen(driver);
+    }
+
+    public WelcomeBackScreen goToWelcomeBackScreen(){
+        click(signInButtonLocator);
+        return new WelcomeBackScreen(driver);
     }
 
 
